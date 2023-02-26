@@ -1,0 +1,44 @@
+.btn-brand{
+    background-color: #FF900E;
+}
+.w-15{
+    width: 15%;
+}
+.txt-brand{
+    color: #727272;
+}
+.one-text{
+    color:#FF900E ;
+}
+.box-brand{
+    padding-top: 10px;
+    background-color:#FF900E ;
+    margin-top: -50px;
+    position: relative;
+    z-index: 1;
+}
+.sponsor-img img {
+    filter: grayscale(1);
+    transition: .3s;
+}
+
+.sponsor-img img:hover {
+    filter: grayscale(0);
+}
+@media (max-width: 767.98px) { 
+   .sponsor-img{
+    flex-direction: column;
+    gap: 60px;
+   }
+   .sponsor-img img{
+    width: 50%;
+    margin: 0 auto;
+   }
+   .box-brand{
+    margin: 0 auto;
+    margin-top: 20px;
+   }
+   .second-feture img{
+    margin-top: 45px;
+   }
+ }
